@@ -1,0 +1,16 @@
+kind: ClusterConfig
+apiVersion: ksctl.io/v1alpha5
+metadata:
+  name: expense-cluster 
+  region: us-east-1
+managedNodeGroups:
+  - name: expense
+    instanceType: m5.large
+    desiredCapacity: 3
+    spot: yes 
+
+  
+
+
+
+
