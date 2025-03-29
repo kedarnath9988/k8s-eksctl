@@ -1,5 +1,5 @@
-kind: ClusterConfig
 apiVersion: ksctl.io/v1alpha5
+kind: ClusterConfig
 metadata:
   name: expense-cluster 
   region: us-east-1
